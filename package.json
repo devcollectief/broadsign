@@ -1,0 +1,33 @@
+{
+  "name": "broadsign",
+  "version": "1.0.0",
+  "description": "broadsign api wrapper",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcollectief/broadsign.git"
+  },
+  "keywords": [
+    "broadsign",
+    "wrapper",
+    "api",
+    "collectief"
+  ],
+  "author": "Tim Kock <tim@collectief.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devcollectief/broadsign/issues"
+  },
+  "homepage": "https://github.com/devcollectief/broadsign#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "iconv-lite": "^0.4.13",
+    "lodash": "^4.4.0",
+    "minimist": "^1.2.0",
+    "request": "^2.69.0",
+    "xml2json": "^0.9.0"
+  }
+}
